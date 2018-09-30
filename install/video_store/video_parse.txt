@@ -1,0 +1,22 @@
+--admin.php 
+
+
+'cmoderation',
+'googlemap',
+'videostore',
+
+--engine/inc/options.php
+array (
+											'name' => "Video Store", 
+											'url' => "$PHP_SELF?mod=videostore", 
+											'descr' => "Модуль для хранение записей о видео файлах", 
+											'image' => "video_store.png", 
+											'access' => "admin" 
+
+
+--copy file 
+engine/inc/videostore.php
+
+
+--copy file 
+engine/skins/images/video_store.png								) 
